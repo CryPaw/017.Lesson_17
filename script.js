@@ -1,7 +1,7 @@
 //Дано масив з елементами різних типів. Створити функцію яка вираховує
 //середнє арифметичне лише числових елементів даного масиву.
 
-function averageСost(array) {
+function averageVal(array) {
     var sum = 0;
     for(var i = 0; i < array.length; i++) {
         sum += array[i];
@@ -17,7 +17,7 @@ array.forEach(function(item) {
     result.push(item)
 });
 console.log(result);
-console.log(averageСost(result));
+console.log(averageVal(result));
 
 
 
